@@ -1,0 +1,12 @@
+// First we call variables and mixins ==>>
+
+@import 'sass/helpers/variables';
+@import 'sass/helpers/mixins';
+
+// Then we import the logical order of the remaining files ==>>
+
+@import 'sass/layout/header';
+
+@import 'sass/pages/homepage';
+
+@import 'sass/layout/footer';
