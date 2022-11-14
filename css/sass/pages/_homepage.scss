@@ -1,6 +1,11 @@
-body {
-	color: red;
-	button {
+p {
+	@media (max-width: $maxMobile) {
+		color: red;
+	}
+	@media (min-width: $minSmall) {
 		color: blue;
+	}
+	@include minMedium {
+		color: green;
 	}
 }
